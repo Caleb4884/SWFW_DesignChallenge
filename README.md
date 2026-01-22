@@ -35,31 +35,32 @@ The system consists of two primary components:
 
 
 ## Code Instructions 
-1. Clone this repository via the following terminal command and then change in to the directory
+1. **Clone this repository via the following terminal command and then change in to the directory**
     ```
     git clone https://github.com/Caleb4884/SWFW_DesignChallenge.git
     cd SWFW_DesignChallenge
     ```
-2. Run the Host first in one terminal using the following command 
+2. **Run the Host first in one terminal using the following command**
 
     `python host.py`
 
 >[!NOTE]
 >The host should print a message to the terminal and create a log file with the time and date of execution
 
-3. Open a Second Terminal in the same directory
-4. In the second Terminal run 
+3. **Open a Second Terminal in the same directory**
+
+4. **In the second Terminal run**
 
     `python node.py`
 
 >[!NOTE]
 >The node will create its own files one holds the most recent acknowled message by the host and the other is used as the buffer. The buffer doesn't clear because it is a json file but the logic to hold the most recent ack is there so its possible in the non simulated system.  
 
-5. To Terminate the test in the different terminals pres Ctrl+C and they should shut down
+5. **To Terminate the test in the different terminals pres Ctrl+C and they should shut down**
 >[!NOTE]
 >Shutdown the host then the node otherwise it doesn't react quite right and I am not sure why exactly
 
-6. The data is now stored in a json file in the same directory. There is diagnostics messages in ther as well which in the future would probobly be better in a specific diagnostic file but this gives you one place to look 
+6. **The data is now stored in a json file in the same directory. There is diagnostics messages in ther as well which in the future would probobly be better in a specific diagnostic file but this gives you one place to look** 
 
 
 ## Log Screenshots 
