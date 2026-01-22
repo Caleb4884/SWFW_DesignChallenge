@@ -66,5 +66,5 @@ The system consists of two primary components:
 ## Log Screenshots 
 ![Example Log Image](/LogImages/ExampleLog.png)
 
-The Screenshot shows a small portion of the logs generated. The upper portion is when the node is in non-verbose mode and the portion with more data as well as descritiptions of the anomally detected is when the system is in verbose mode. When running the system if you don't clear the .state file the sequency will start at that state. It might take a while to get a large train of no anomalies or vice versa as with the gaussian noise on the sensors its pretty unpredicable and I wanted to show that it does detect changes as well as how the verbose mode could be helpufl in debugging. 
+The Screenshot shows a small portion of the logs generated. The upper portion is when the node is in non-verbose mode and the portion with more data as well as descritiptions of the anomally detected is when the system is in verbose mode. When running the system if you don't clear the .state file the sequence will start at that state. It might take a while to get a large train of no anomalies or vice versa as with the gaussian noise on the sensors its pretty unpredicable and I wanted to show that it does detect changes as well as how the verbose mode could be helpful in debugging. 
 
