@@ -30,8 +30,8 @@ The system consists of two primary components:
 
 
 
-[!NOTE]
-I used ip "127.0.0.1" and port 9000 as the ip is the loopback on my machine and the port doesn't require privledges. If you need to change these for your machine they are constants in common/constants.py. I did this on my windows computer so if using linux I beleive it should all be the same except the actual python comand to execute the script and the ip and port. 
+>[!NOTE]
+>I used ip "127.0.0.1" and port 9000 as the ip is the loopback on my machine and the port doesn't require privledges. If you need to change these for your machine they are constants in common/constants.py. I did this on my windows computer so if using linux I beleive it should all be the same except the actual python comand to execute the script and the ip and port. 
 
 
 ## Code Instructions 
@@ -44,20 +44,20 @@ I used ip "127.0.0.1" and port 9000 as the ip is the loopback on my machine and 
 
     `python host.py`
 
-[!NOTE]
-    The host should print a message to the terminal and create a log file with the time and date of execution
+    >[!NOTE]
+    >The host should print a message to the terminal and create a log file with the time and date of execution
 
 3. Open a Second Terminal in the same directory
 4. In the second Terminal run 
 
     `python node.py`
 
-[!NOTE]
-    The node will create its own files one holds the most recent acknowled message by the host and the other is used as the buffer. The buffer doesn't clear because it is a json file but the logic to hold the most recent ack is there so its possible in the non simulated system.  
+    >[!NOTE]
+    >The node will create its own files one holds the most recent acknowled message by the host and the other is used as the buffer. The buffer doesn't clear because it is a json file but the logic to hold the most recent ack is there so its possible in the non simulated system.  
 
 5. To Terminate the test in the different terminals pres Ctrl+C and they should shut down
-[!NOTE]
-     Shutdown the host then the node otherwise it doesn't react quite right and I am not sure why exactly
+    >[!NOTE]
+    >Shutdown the host then the node otherwise it doesn't react quite right and I am not sure why exactly
 
 6. The data is now stored in a json file in the same directory. There is diagnostics messages in ther as well which in the future would probobly be better in a specific diagnostic file but this gives you one place to look 
 
