@@ -54,7 +54,7 @@ The system consists of two primary components:
     `python node.py`
 
 >[!NOTE]
->The node will create its own files one holds the most recent acknowled message by the host and the other is used as the buffer. The buffer doesn't clear because it is a json file but the logic to hold the most recent ack is there so its possible in the non simulated system.  
+>The node will create its own files as well. One holds the most recent acknowled message by the host and the other is used as the buffer. The buffer doesn't clear because it is a json file but the logic to hold the most recent ack is there so its possible in the non simulated system to clear memory on the node.
 
 5. **To Terminate the test in the different terminals pres Ctrl+C and they should shut down**
 >[!NOTE]
