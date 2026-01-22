@@ -60,7 +60,7 @@ The system consists of two primary components:
 >[!NOTE]
 >Shutdown the host then the node otherwise it doesn't react quite right and I am not sure why exactly
 
-6. **The data is now stored in a json file in the same directory. There is diagnostics messages in ther as well which in the future would probobly be better in a specific diagnostic file but this gives you one place to look** 
+6. **The data is now stored in a json file in the same directory. There is diagnostics messages in there as well which in the future would probobly be better in a specific diagnostic file but this gives you one place to look** 
 
 
 ## Log Screenshots 
