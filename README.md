@@ -44,7 +44,7 @@ I used ip "127.0.0.1" and port 9000 as the ip is the loopback on my machine and 
 
     `python host.py`
 
-    [!NOTE]
+[!NOTE]
     The host should print a message to the terminal and create a log file with the time and date of execution
 
 3. Open a Second Terminal in the same directory
@@ -52,11 +52,11 @@ I used ip "127.0.0.1" and port 9000 as the ip is the loopback on my machine and 
 
     `python node.py`
 
-     [!NOTE]
+[!NOTE]
     The node will create its own files one holds the most recent acknowled message by the host and the other is used as the buffer. The buffer doesn't clear because it is a json file but the logic to hold the most recent ack is there so its possible in the non simulated system.  
 
 5. To Terminate the test in the different terminals pres Ctrl+C and they should shut down
-     [!NOTE]
+[!NOTE]
      Shutdown the host then the node otherwise it doesn't react quite right and I am not sure why exactly
 
 6. The data is now stored in a json file in the same directory. There is diagnostics messages in ther as well which in the future would probobly be better in a specific diagnostic file but this gives you one place to look 
