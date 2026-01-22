@@ -3,7 +3,9 @@
 This repository contains a simulated distributed diagnostics and anomaly detection framework designed for systems deployed in remote environments.  
 The architecture models a **sensor node** communicating with a **host controller** over a reliable, ACK-based protocol.
 
-The system is implemented in Python 
+The system is implemented in Python.
+
+I did use chat GPT to help me as I am still learning python and mostly needed help with the tcp communication. I just wanted to make sure that was stated to be as forthcoming as possible.
 
 ---
 
