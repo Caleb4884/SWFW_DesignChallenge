@@ -30,6 +30,7 @@ from sensor import run_rail_diagnostic
 from common.protocol import send_jsonl, recv_jsonl_nonblocking
 from common.timeutil import utc_ts
 from node_lib.handlers import NodeIds, RailSensors, handle_host_msgs
+from common.constants import HOST_IP, HOST_PORT
 
 
 running = True
@@ -97,7 +98,7 @@ def connect():
     global sock, rx_buffer
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.settimeout(1.0)
-    s.connect(("127.0.0.1", 9000))
+    s.connect((HOST_IP, HOST_PORT))
     s.settimeout(None)
     sock = s
     rx_buffer = b""

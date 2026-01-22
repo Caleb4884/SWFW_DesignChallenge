@@ -42,6 +42,7 @@ from common.protocol import (
 )
 from common.timeutil import utc_ts_filename, utc_ts
 from host_lib.scheduler import StreamCtrl, tick_control
+from common.constants import HOST_IP, HOST_PORT
 
 
 def utc_ts_for_filename():
@@ -49,8 +50,9 @@ def utc_ts_for_filename():
 
 
 def main():
-    bind_ip = "127.0.0.1"
-    port = 9000
+
+    bind_ip = HOST_IP
+    port = HOST_PORT
 
     # how many messages before sending an ack back
     ACK_EVERY_N = 50
